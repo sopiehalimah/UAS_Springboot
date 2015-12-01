@@ -1,0 +1,64 @@
+<br><br><br><br><br><br>
+<div class="panel">
+<div class="heading">
+<span class="icon mif-file-text"></span>
+<span class="title">
+<span class="class .header">Create New Post</span>
+</span>
+</div>
+<div class="content">
+<table style="width:100%">
+<tr>
+	<td>Judul</td>
+	<td>
+            <div class="input-control text full-size">
+            <input type="text" name="judul" ng-model="model.judul" >
+            </div>
+	</td>
+</tr>
+<tr>
+	<td>Jenis</td>
+	<td>
+            <div class="input-control text full-size">
+            <input type="text" name="jenis" ng-model="model.jenis" >
+            </div>
+	</td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+            <button class="button info block-shadow-info text-shadow" type="submit" 
+                    ng-click="simpan(model)">Submit</button>
+	</td>
+</tr>
+
+</table>
+</div>
+</div>
+<br><br><br>
+        <div class="panel">
+	<div class="heading">
+		<span class="icon mif-loop2" ng-click="tampilkanData()" style="cursor: pointer;"></span>
+		<span class="title">List Books</span>
+	</div>
+	<div class="content">
+            <table style="width: 100%;" class="table">
+			<thead>
+				
+                                <th>Judul</th>
+				<th>Jenis</th>
+                                <th colspan="2">Action</th>
+					
+			</thead>
+			<tbody>
+				<tr ng-repeat="buku in data">
+                                    <td>{{buku.judul}}</td>
+                                    <td>{{buku.jenis}}</td>
+                                    <td><button class="button info block-shadow-info text-shadow"  type="submit" ng-click="hapusData(buku.id)"><span class="icon mif-cancel"></span></button>
+                                    <button class="button info block-shadow-info text-shadow"  type="submit" ng-click="editData(buku)"><span class="icon mif-pencil"></span></button></td>
+                                </tr>
+			</tbody>	
+		</table>	
+	</div>
+</div>
+

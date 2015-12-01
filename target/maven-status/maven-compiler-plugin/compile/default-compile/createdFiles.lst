@@ -1,0 +1,11 @@
+sopie/springboot/domain/Role.class
+sopie/springboot/controller/HomeController.class
+sopie/springboot/controller/UserController.class
+sopie/springboot/controller/BukuController.class
+sopie/springboot/service/BukuDao.class
+sopie/springboot/domain/Buku.class
+sopie/springboot/service/UserDao.class
+sopie/springboot/App.class
+sopie/springboot/domain/Permission.class
+sopie/springboot/domain/User.class
+sopie/springboot/config/SecurityConfig.class

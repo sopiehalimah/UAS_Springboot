@@ -1,0 +1,11 @@
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/App.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/service/BukuDao.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/service/UserDao.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/config/SecurityConfig.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/controller/HomeController.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/domain/Buku.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/domain/Permission.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/domain/Role.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/controller/BukuController.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/controller/UserController.java
+/home/sopie/sopie-springboot/src/main/java/sopie/springboot/domain/User.java

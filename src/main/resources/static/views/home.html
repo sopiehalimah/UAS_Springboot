@@ -1,0 +1,27 @@
+<br><br><br>
+
+        <div class="panel">
+	<div class="heading">
+            <span class="icon mif-loop2" ng-click="tampilkanData()" style="cursor: pointer;"></span>
+		<span class="title">List Books</span>
+                
+                
+	</div>
+	<div class="content">
+            <table style="width: 100%;" class="table">
+			<thead>
+				
+                                <th>Judul</th>
+				<th>Jenis</th>
+					
+			</thead>
+			<tbody>
+				<tr ng-repeat="buku in data">
+                                    <td>{{buku.judul}}</td>
+                                    <td>{{buku.jenis}}</td>
+                                </tr>
+			</tbody>	
+		</table>	
+	</div>
+</div>
+        

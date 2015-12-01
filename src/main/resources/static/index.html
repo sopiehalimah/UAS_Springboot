@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="lib/css/metro.css" rel="stylesheet">
+        <link href="lib/css/metro-icons.css" rel="stylesheet">
+        <link href="lib/css/metro-responsive.css" rel="stylesheet">
+        <link href="lib/css/metro-schemes.css" rel="stylesheet">
+
+        <link href="lib/css/docs.css" rel="stylesheet">
+
+        <script src="lib/js/jquery-2.1.3.min.js"></script>
+        <script src="lib/js/metro.js"></script>
+        <script src="lib/js/docs.js"></script>
+        <script src="lib/js/prettify/run_prettify.js"></script>
+        <script src="lib/js/ga.js"></script>
+        </head>
+    <body ng-app="aplikasiSpringboot">
+
+    <header class="app-bar fixed-top navy" data-role="appbar"ng-controller="navbarController">
+        <div class="app-bar" data-role="appbar">
+            <a class="app-bar-element" href="#/dashboard">
+                <span class="mif-apps mif-2x"></span>
+            </a>
+            <span class="app-bar-divider"></span>
+            <ul class="app-bar-menu">
+                <li><a href="#/home">Home</a></li>                
+                <li ng-show="user.role.name === 'admin'"><a href="#/admin">Admin Page</a></li>
+            
+            </ul>
+            <ul class="app-bar-menu" >
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+            
+            <span class="app-bar-pullbutton"></span>
+            
+        </div>
+           
+    </header>
+    </body>                  
+    <div class="container">
+        <div ng-view=""></div>
+    </div>
+       
+ 
+    </body>
+    <script src="/lib/js/angular.min.js"></script>
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/controller/homeController.js"></script>
+    <script src="/scripts/controller/navbarController.js"></script>
+    <script src="/scripts/service/homeService.js"></script>
+    <script src="/lib/js/angular-route.js"></script>
+    <script src="/views/home.html"></script>
+    <script src="/views/dashboard.html"></script>
+</html>
