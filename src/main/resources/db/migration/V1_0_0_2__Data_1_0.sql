@@ -1,5 +1,5 @@
-INSERT INTO buku(id, judul, jenis) VALUES 
-('1','Max Havelar','Novel');
+INSERT INTO buku(id, judul, genre, jenis) VALUES 
+('1','Max Havelar','ngasal','Novel');
 
 INSERT INTO `c_security_role` (`id`, `name`, `description`) VALUES 
 ('admin', 'admin', 'Applicatipn Admin'),

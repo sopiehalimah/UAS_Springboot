@@ -21,6 +21,7 @@ angular.module('aplikasiSpringboot')
           
           $scope.edit = function(data, index){
               $scope.model.judul = data.judul;
+              $scope.model.genre = data.genre;
               $scope.model.jenis = data.jenis;
               $scope.indexEdit = index;
               $scope.isEdit = true;
@@ -74,6 +75,7 @@ angular.module('aplikasiSpringboot')
               $scope.isDataEdit = true;
               $scope.model = {};
               $scope.model.judul = data.judul;
+              $scope.model.genre = data.genre;
               $scope.model.jenis = data.jenis;
               $scope.model.id = data.id;
               

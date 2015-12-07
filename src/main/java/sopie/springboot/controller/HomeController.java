@@ -30,6 +30,7 @@ public class HomeController {
     Buku getBuku() {
         Buku p = new Buku();
         p.setJudul("Max Havelar");
+        p.setGenre("ngasal");
         p.setJenis("Novel");
         
         return p;
@@ -41,10 +42,12 @@ public class HomeController {
         List<Buku> bukus = new ArrayList<Buku>();
         Buku p = new Buku();
         p.setJudul("Max Havelar");
+        p.setGenre("ngasal");
         p.setJenis("Novel");
         
         Buku p1 = new Buku();
         p1.setJudul("Naruto");
+        p1.setGenre("kkk");
         p1.setJenis("Komik");
         
         bukus.add(p);

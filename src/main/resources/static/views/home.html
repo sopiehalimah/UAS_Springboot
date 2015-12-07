@@ -1,4 +1,4 @@
-<br><br><br>
+<br><br><br><br><br><br>
 
         <div class="panel">
 	<div class="heading">
@@ -11,14 +11,16 @@
             <table style="width: 100%;" class="table">
 			<thead>
 				
-                                <th>Judul</th>
-				<th>Jenis</th>
+                                <th style="text-align: center;">Judul</th>
+                                <th style="text-align: center;">Genre</th>
+				<th style="text-align: center;">Jenis</th>
 					
 			</thead>
 			<tbody>
 				<tr ng-repeat="buku in data">
-                                    <td>{{buku.judul}}</td>
-                                    <td>{{buku.jenis}}</td>
+                                    <td style="text-align: center;">{{buku.judul}}</td>
+                                    <td style="text-align: center;">{{buku.genre}}</td>
+                                    <td style="text-align: center;">{{buku.jenis}}</td>
                                 </tr>
 			</tbody>	
 		</table>	

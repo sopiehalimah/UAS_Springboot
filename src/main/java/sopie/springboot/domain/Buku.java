@@ -27,8 +27,10 @@ public class Buku {
     
     private String id; 
     private String judul;
-    private String jenis;
+    private String genre;
+     private String jenis;
 
+    
     public String getId() {
         return id;
     }
@@ -43,6 +45,14 @@ public class Buku {
 
     public void setJudul(String judul) {
         this.judul = judul;
+    }
+    
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
     public String getJenis() {

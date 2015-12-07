@@ -18,9 +18,9 @@
         </head>
     <body ng-app="aplikasiSpringboot">
 
-    <header class="app-bar fixed-top navy" data-role="appbar"ng-controller="navbarController">
-        <div class="app-bar" data-role="appbar">
-            <a class="app-bar-element" href="#/dashboard">
+    <header class="app-bar" data-role="appbar" ng-controller="navbarController">
+        <div class="app-bar" >
+            <a class="app-bar-element" href="#/dashboard" style="padding-top: 10px;">
                 <span class="mif-apps mif-2x"></span>
             </a>
             <span class="app-bar-divider"></span>
@@ -29,8 +29,8 @@
                 <li ng-show="user.role.name === 'admin'"><a href="#/admin">Admin Page</a></li>
             
             </ul>
-            <ul class="app-bar-menu" >
-                <li><a href="/logout">Logout</a></li>
+            <ul class="app-bar-menu place-right" >
+                <li><a href="/logout" style="margin-left: 10px;margin-right: 20px;">Logout</a></li>
             </ul>
             
             <span class="app-bar-pullbutton"></span>

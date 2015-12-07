@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS `buku`;
 CREATE TABLE `buku`(
 `id` varchar(255) NOT NULL,
 `judul` varchar(255) NOT NULL,
+`genre` varchar(255) NOT NULL,
 `jenis` varchar(255) NOT NULL,
 PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
